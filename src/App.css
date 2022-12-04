@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color:#23252C;
+  font-family: 'Inter';
+}
+
+.text-center{
+  text-align: center;    
+}
+
+/* MAIN SECTION */
+
+main{
+  max-width:350px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#1A1B21;
+  padding:1px 0;
+}
+
+  /* image */
+.profile{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 10px 10px 0 0;
+}
+
+  /* name */
+.title{
+  font-size: 25px;
+  line-height: 30px; 
+  color: #FFFFFF;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+
+.description{
+  color:#F3BF99;
+  font-size: 14.8px;
+  margin-top:7px;
+  margin-bottom:0;
+}
+
+.greetings{
+  color:#F5F5F5;
+  font-size: 13.24px;
+  line-height: 150%;
+  margin:9px 0 25px 0;
+}
+
+  /* buttons */
+.button{
+  text-decoration: none;
+  font-size: 16px;
+  border-radius:6px;
+  padding:8px 30px;
+}
+
+.email{
+  color:black;
+  background-color: #FFFFFF;
+  margin-left:35px;
+  margin-right:17px;
+}
+.email > img{
+  margin-right:9px;
+}
+
+.linkedin{
+  color:white;
+  background-color: #5093E2;
+}
+.linkedin > img{
+  margin-right:9px;
+}
+
+  /* about */
+.info{
+  padding: 0 40px;
+}
+
+.about{
+  color:#F5F5F5;
+  margin:33px 0 -10px 0;
+  font-size: 18px;
+  line-height: 150%;
+}
+.about + p{
+  color:#DCDCDC;
+  font-size: 13.24px;
+  line-height: 150%;
+}
+
+.end{
+  margin-bottom:30px;
+}
+
+/* FOOTER SECTION */
+
+footer{
+  background-color:#161619;
+  max-width:350px;
+  margin:0 auto;
+  border-radius: 0 0 10px 10px;
+}
+footer > a img{
+  padding:15px 12px;
+}
